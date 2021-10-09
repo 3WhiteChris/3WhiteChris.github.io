@@ -14,15 +14,20 @@ html {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3{
   font-family: '微软雅黑', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   margin: 0 0 35px;
   letter-spacing: 1px;
   /* text-transform: uppercase; */
+}
+
+h4,
+h5,
+h6{
+  font-family: '微软雅黑', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+  margin: 0 0 12px;
 }
 
 p {
@@ -181,7 +186,7 @@ header p {
   color: white;
   background: url("../img/section2-bg.jpg") no-repeat center center scroll;
   background-color: black;
-  background-size: cover;
+  background-size: contain;
 }
 
 #map {
